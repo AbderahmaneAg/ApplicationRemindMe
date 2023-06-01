@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/top_bag"
+        android:padding="5dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Vaccination advice"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </TextView>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="42dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2sp"
+                android:layout_marginEnd="2sp"
+                android:textColor="@color/vert3"
+                android:text="Vaccination Advice"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="You must vaccinate your baby from birth with BCG + VPO + HVB. Continue to vaccinate your child until school age according to the national vaccination schedule"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Co-indications for vaccinations are extremely rare, often unpatified and delay vaccination of children"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- a moderate fever,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- upper respiratory tract infection, malnutrition,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- diarrhea,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- dermatosis,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="are not contraindications to vaccination"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2sp"
+                android:layout_marginEnd="2sp"
+                android:textColor="@color/vert3"
+                android:layout_marginTop="15dp"
+                android:text="Conseils de vaccination"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="Vous devez vacciner votre bébé dès sa naissance avec BCG + VPO + HVB. Continuez à faire vacciner votre enfant jusqu'à l'âge scolaire selon le calendrier national de vaccination"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Les co-indications aux vaccinations sont extrêmement rares, souvent non patiquées et retardent la vaccination des enfants"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- a moderate fever,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- infection des voies respiratoires supérieures, dénutrition,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- diarrhea,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- dermatose,"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ne sont pas des contre-indications à la vaccination"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Toute réaction de type anaphylactique survenant au cours de la vaccination est une contre-indication et la poursuite de la vaccination avec le type de vaccin en question."
+                android:textSize="17dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2sp"
+                android:layout_marginEnd="2sp"
+                android:textColor="@color/vert3"
+                android:layout_marginTop="15dp"
+                android:text="نصائح التطعيم"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="يجب تطعيم طفلك منذ الولادة بـ BCG + VPO + HVB. استمر في تطعيم طفلك حتى سن المدرسة حسب جدول التطعيم الوطني "
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="الاستطبابات المرافقة للتطعيمات نادرة للغاية ، وغالبًا ما تكون غير مصححة وتؤخر تطعيم الأطفال "
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- حمى معتدلة"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- عدوى الجهاز التنفسي العلوي ، سوء التغذية ،"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="- إسهال،"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="أمراض الجلد"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ليست موانع للتطعيم"
+                android:textSize="17dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="أي تفاعل تأقي يحدث أثناء التطعيم هو موانع واستمرار التطعيم بنوع اللقاح المعني "
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+    </ScrollView>
+
+

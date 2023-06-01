@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Projet_memoir" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--  Customize your theme here.  -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor"> @color/tool</item>
+    </style>
+    <style name="DrawerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">15sp</item>
+        <!--  menu item text size -->
+        <item name="android:listPreferredItemHeightSmall">40dp</item>
+        <!--  menu item height -->
+    </style>
+    <style name="Theme.Projet_memoir.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Projet_memoir.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Projet_memoir.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

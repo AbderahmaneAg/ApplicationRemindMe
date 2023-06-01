@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/top_bag"
+        android:padding="5dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/top_bag"
+        android:padding="5dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="sans-serif-black"
+        android:text="Surveillance"
+        android:textColor="@color/black"
+        android:textSize="25sp">
+    </TextView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="42dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20sp"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:id="@+id/signin_icon"
+                android:src="@drawable/p6"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Age : "
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounderconer"
+                android:padding="16dp"/>
+
+            <EditText
+                android:id="@+id/taille"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/rounderconer"
+                android:padding="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Child's length : " />
+
+            <EditText
+                android:id="@+id/poid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/rounderconer"
+                android:padding="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Child's weight : " />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/rounderconer"
+                android:padding="16dp"
+                android:layout_marginTop="12dp"
+                android:inputType="date"
+                android:text="Date : "/>
+
+            <EditText
+                android:id="@+id/mark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:background="@drawable/rounderconer"
+                android:padding="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Remark : "/>
+
+            <Button
+                android:id="@+id/ajouterBtn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:height="64dp"
+                android:layout_marginTop="12dp"
+                android:textSize="16sp"
+                android:layout_marginLeft="100dp"
+                android:backgroundTint="@color/PrimaryColor"
+                android:onClick="saveed"
+                android:text="save" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+

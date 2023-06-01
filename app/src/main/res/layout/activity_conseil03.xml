@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".MainActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/top_bag"
+            android:padding="5dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Vaccination schedule"
+            android:textColor="@color/black"
+            android:textSize="25sp">
+        </TextView>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="60dp"
+            >
+            <TableRow
+                android:background="@color/vert1"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Age"
+                    android:textColor="@color/white"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Vaccines"
+                    android:textColor="@color/white"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Against"
+                    android:textColor="@color/white"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="At birth"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="B.C.G"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="TUBERCULOSIS "
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="At birth"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HBV(1)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="VIRAL HEPATITIS (1)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="1 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HBV(2)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HEPATITE VIRALE (2))"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DTC(1)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria, tetanus and whooping cough"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HIB(1)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Haemophilus influenzae - oral polio"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="4 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DTC(2)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria, tetanus and whooping cough"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="4 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HIB(2)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Haemophilus influenzae - oral polio"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DTC(3)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria, tetanus and whooping cough"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HIB(3)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Haemophilus influenzae - oral polio"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HBV(3)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hepatitis b viral oral polio"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="9 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ANTI ROUGEOLE"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Measles"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="18 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DTC(4)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria, tetanus and whooping cough"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="18 month"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="HIB(4)"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Haemophilus influenzae Oral polio"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="6 years"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DT"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria and tetanus child"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/white"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="11/13 years"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DT/PPLIO"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Adult diphtheria, tetanus, oral poliomyelitis"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:background="@color/top_bag"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="16/18 years"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DT/PPLIO"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Diphtheria and tetanus - adult,Oral polio,Diphtheria and tetanus - adult"
+                    android:textColor="@color/black"
+                    android:padding="7sp"
+                    android:textSize="20sp"
+                    android:layout_weight="5"
+                    android:gravity="center_horizontal"
+                    />
+
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

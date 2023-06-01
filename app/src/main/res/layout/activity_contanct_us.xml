@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContanctUsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_layout"
+        android:layout_marginVertical="8dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/mail"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Us"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gm" />
+            <TextView
+                android:id="@+id/gmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gmail"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/site" />
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web-Site"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/fb" />
+            <TextView
+                android:id="@+id/fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faacebook"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ig" />
+            <TextView
+                android:id="@+id/ig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instagram"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tw" />
+            <TextView
+                android:id="@+id/twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Twitter"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <ImageView
+                android:layout_marginStart="16dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/wt" />
+            <TextView
+                android:id="@+id/watsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WatsApp"
+                android:inputType="text"
+                android:layout_marginStart="40dp"
+                android:textSize="15sp"
+                android:background="@drawable/stylenav"
+                android:padding="8dp"
+                android:layout_marginTop="12dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_medcine"
+        android:icon="@drawable/p4"
+        android:title="Medicine"/>
+    <item
+        android:id="@+id/menu_vaccination"
+        android:icon="@drawable/p1"
+        android:title="Vaccination"/>
+    <item
+        android:id="@+id/menu_Surveillance"
+        android:icon="@drawable/p2"
+        android:title="Surveillance"/>
+    <item
+        android:id="@+id/menu_Conseils"
+        android:icon="@drawable/p3"
+        android:title="Advice"/>
+
+    <item
+        android:id="@+id/menu_AboutUs"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/menu_Conatcet"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Contact"/>
+</menu>

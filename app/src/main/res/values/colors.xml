@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_700">#138584</color>
+    <color name="black">#FF000000</color>
+    <color name="white1">#2C333D81</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="red">#EF1010</color>
+    <color name="PrimaryColor">#3AE6D3</color>
+    <color name="teal_200">#D522BBE1</color>
+    <color name="teal_202">#D51788A5</color>
+    <color name="top_bag">#D5D9F0F7</color>
+
+    <color name="top_bag1">#CF4473</color>
+    <color name="tool">#2196F3</color>
+    <color name="vert1">#D527E37C</color>
+    <color name="vert2">#D510D669</color>
+    <color name="vert3">#D507AA51</color>
+    <color name="vert4">#D52A593F</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="text_color">#000000</color>
+    <color name="background_color">#673AB7</color>
+    <color name="background">#F3E4BA</color>
+    <color name="highlight">#EFEEEC</color>
+    <color name="shadow_color">#673AB7</color>
+    <color name="title_back">#40000000</color>
+    <color name="thankYou_title">#FF9800</color>
+    <color name="thankYou_des">#9E9393</color>
+    <color name="colorAccent">#0B655C</color>
+    <color name="shadow_color_top">#EFD079</color>
+    <color name="shadow_color_bottom">#F6F4F1</color>
+    <color name="slider_title_background">#40000000</color>
+    <color name="nav.item.background">#03A9F4</color>
+    <color name="nav.item.background.default">@android:color/transparent</color>
+    <color name="web_top">#FF9800</color>
+
+
+</resources>

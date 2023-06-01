@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projet_memoir"
+        tools:targetApi="31" >
+        <activity
+            android:name=".sendSms"
+            android:exported="true" />
+        <activity
+            android:name=".pushnotif"
+            android:exported="true" />
+        <activity
+            android:name=".Notofication"
+            android:exported="true" />
+        <activity
+            android:name=".about"
+            android:exported="true" />
+        <activity
+            android:name=".ContanctUsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".codepm"
+            android:exported="true" />
+        <activity
+            android:name=".sendemail"
+            android:exported="true" />
+        <activity
+            android:name=".MedcineCode"
+            android:exported="true" />
+        <activity
+            android:name=".vaccinations"
+            android:exported="true" />
+        <activity
+            android:name=".surveillance"
+            android:exported="true" />
+        <activity
+            android:name=".PersonnelMedical"
+            android:exported="true" />
+        <activity
+            android:name=".item"
+            android:exported="true" />
+        <activity
+            android:name=".medcine"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true" />
+        <activity
+            android:name=".CreatAccont"
+            android:exported="true" />
+        <activity
+            android:name=".conseil03"
+            android:exported="true" />
+        <activity
+            android:name=".conseil02"
+            android:exported="true" />
+        <activity
+            android:name=".conseil01"
+            android:exported="true" />
+        <activity
+            android:name=".conseil"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

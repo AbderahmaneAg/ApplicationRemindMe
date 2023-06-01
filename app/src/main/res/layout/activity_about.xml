@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        tools:context=".about">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/form_layout"
+        android:layout_marginVertical="8dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ab"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us "
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:background="@drawable/rounderconer"
+            android:text="This application aims to make life easier for parents by keeping them informed of the dates and times of their children's vaccinations. Thanks to this app, you will receive regular notifications through different communication channels to make sure you don't miss any important appointments. In addition, the presence of a comprehensive data base on vaccination and the appropriate doses of vaccines will allow parents to access valuable information to take care of their child's health. While a similar application already exists in India, it is time to fill this gap in Algeria and provide parents with a practical and effective tool to follow the vaccination schedule of their children. This application will be a valuable ally in ensuring the health and well-being of children, while providing peace of mind for parents."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:background="@drawable/rounderconer"
+            android:text="Cette application a pour objectif de faciliter la vie des parents en les tenant  informés des dates et horaires de vaccination de leurs enfants. Grâce à cette application, vous recevrez des notifications régulières via différents canaux de communication pour vous assurer de ne manquer aucun rendez-vous important. De plus, la présence d'une base de données complète sur la vaccination et les doses appropriées de vaccins permettra aux parents d'accéder à des informations précieuses pour prendre soin de la santé de leur enfant. Alors qu'une application similaire existe déjà en Inde, il est temps de combler ce manque en Algérie et de fournir aux parents un outil pratique et efficace pour suivre le calendrier de vaccination de leurs enfants. Cette application sera un précieux allié pour garantir la santé et le bien-être des enfants, tout en offrant une tranquillité d'esprit aux parents."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:padding="12dp"
+            android:background="@drawable/rounderconer"
+            android:text=" يهدف هذا التطبيق إلى تسهيل الحياة على الآباء من خلال إطلاعهم على مواعيد وأوقات تطعيم أطفالهم. بفضل هذا التطبيق ، ستتلقى إشعارات منتظمة عبر قنوات اتصال مختلفة للتأكد من عدم تفويت أي مواعيد مهمة. بالإضافة إلى ذلك ، فإن وجود قاعدة معرفية شاملة حول التطعيم والجرعات المناسبة من اللقاحات سيسمح للوالدين بالوصول إلى معلومات قيمة للعناية بصحة أطفالهم. بينما يوجد تطبيق مماثل بالفعل في الهند ، فقد حان الوقت لملء هذه الفجوة في الجزائر وتزويد الآباء بأداة عملية وفعالة لمتابعة جدول التطعيم لأطفالهم. سيكون هذا التطبيق حليفًا قيمًا في ضمان صحة الأطفال ورفاههم ، مع توفير راحة البال للآباء"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:padding="7dp"
+            android:background="@drawable/stylenav"
+            android:text="Devloped By"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:text="Agoun Abderahmane and Arif Chaima"
+            />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

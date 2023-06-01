@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343310728342",
+    "project_id": "app-final-dc9ea",
+    "storage_bucket": "app-final-dc9ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343310728342:android:87638ef22c1399b37ed6b7",
+        "android_client_info": {
+          "package_name": "com.example.projet_memoir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343310728342-nli47ep7stosmd5iikp0irttukob950f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxeirAOhvFCfQTMI9mCuhEcqROT53tJWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343310728342-nli47ep7stosmd5iikp0irttukob950f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
